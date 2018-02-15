@@ -53,7 +53,7 @@ while i<10000:
                         client = TwilioRestClient("ACf4cae3c213df8879c64e7ad65935b37c", "725ae08e3996068eb70258787a075efa")
 
                         client.messages.create(from_='+14072581360',
-                                                to='+18139438388',
+                                                to='+*(your number here)*',
                                                 body=(z))
                         lastx = x
                         
