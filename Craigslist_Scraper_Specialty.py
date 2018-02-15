@@ -50,7 +50,7 @@ while i<10000:
                         print z
                         PlaySound("SystemExit", SND_ALIAS)
                         from twilio.rest import TwilioRestClient
-                        client = TwilioRestClient("ACf4cae3c213df8879c64e7ad65935b37c", "725ae08e3996068eb70258787a075efa")
+                        client = TwilioRestClient("YourtwilioKeyhere", "twiliokeyhere")
 
                         client.messages.create(from_='+14072581360',
                                                 to='+*(your number here)*',
