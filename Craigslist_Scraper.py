@@ -49,14 +49,4 @@ def cl():
 cl()
 
 
-import pygame
 
-def r():
-    pygame.mixer.init()
-    pygame.mixer.music.load("C:/Users/Steven/Downloads/It's a Trap!.mp3")
-    pygame.mixer.music.play()
-
-def t():
-    pygame.mixer.init()
-    pygame.mixer.music.load("C:/Users/Steven/Downloads/Admiral Ackbar - It's A Trap!.mp3")
-    pygame.mixer.music.play()    
